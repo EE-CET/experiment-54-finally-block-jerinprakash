@@ -24,7 +24,7 @@ public class FinallyDemo {
 		try{
 
 			int result=a/b;
-			System.out.println(result);
+			System.out.println("Result: "+result);
 
 		}
 		catch(ArithmeticException e){
